@@ -1,0 +1,1088 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+$mainColor: #3d2514;
+$whiteColor: #fff;
+$fontFamily2: 'Bebas Neue', cursive;
+
+h1,h2,h3,h4,h5,h6,p,a{
+    color: $mainColor;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Alfa Slab One', cursive;
+}
+header{
+    width: 100%;
+    background: url('../image/header-bg.png') no-repeat center center;
+    background-size: cover;
+
+    .navbar{
+        // position: fixed;
+        // top: 0;
+        // left: 0;
+        // right: 0;
+        // z-index: 10;
+        // box-shadow: 0 .5px 10px rgb(158, 156, 156);
+
+        .collapse{
+           .navbar-nav{
+               .nav-item{
+                   .nav-link{
+                       transition: .5s;
+                       &:hover{
+                           color: $whiteColor;
+                       }
+                   }
+               }
+           }
+        }
+    }
+    
+    .banner-text{
+        h4{ display: inline-block;
+            padding: .5rem;
+            border: 3px dashed $mainColor;
+            letter-spacing: .001px;
+            margin: .5rem 0;
+        }
+        h1{
+            font-size: 5rem;
+            font-weight: 900;
+            text-shadow: 1px 1.5px white;
+            letter-spacing: 1px;
+        }
+        h2{
+            font-size: 3rem;
+            font-weight: 800;
+            text-shadow: 1px 1.5px white;
+            letter-spacing: 1px;
+        }
+    }
+    .price-sticker{
+        background-color: #bf2222;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        outline: 5px dashed white;
+        outline-offset: -15px;
+        
+
+        h4{
+            font-family: 'Bebas Neue', cursive;
+            font-size: 2.5rem;
+            margin-bottom: 0;
+            color: white;
+
+            span{
+                font-size: 1.5rem;
+            }
+        }
+        p{
+            font-size: 1.5rem;
+            color: white;
+        }
+    }
+    
+}
+.try-it-today{
+    .left{
+        position: relative;
+
+        .text{
+            position: absolute;
+            top: 5%;
+            left: 5%;
+
+            h4{
+                color: $whiteColor;
+                font-family: $fontFamily2;
+                letter-spacing: 1px;
+                font-size: 2.2rem;
+            }
+            h6{
+                color: $whiteColor;
+                font-family: $fontFamily2;
+                letter-spacing: 1px;
+                font-size: 1.5rem;
+                margin-bottom: 0;
+            }
+        }
+    }
+    .right{
+        .div1{
+            position: relative;
+            margin-bottom: 2.1rem;
+
+            .text{
+                position: absolute;
+                top: 5%;
+                left: 5%;
+    
+                h4{
+                    color: $whiteColor;
+                    font-family: $fontFamily2;
+                    letter-spacing: 1px;
+                    font-size: 2.2rem;
+                }
+                h6{
+                    color: $whiteColor;
+                    font-family: $fontFamily2;
+                    letter-spacing: 1px;
+                    font-size: 1.5rem;
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .div2{
+            position: relative;
+
+            .text{
+                position: absolute;
+                top: 5%;
+                left: 5%;
+    
+                h4{
+                    color: $whiteColor;
+                    font-family: $fontFamily2;
+                    letter-spacing: 1px;
+                    font-size: 2.2rem;
+                }
+                h6{
+                    color: $whiteColor;
+                    font-family: $fontFamily2;
+                    letter-spacing: 1px;
+                    font-size: 1.5rem;
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
+.choose-and-enjoy{
+    .heading{
+        h6{
+            font-family: $fontFamily2;
+            letter-spacing: 1px;
+            background: #ffc045;
+            padding: .5rem 1rem;
+            display: inline-block;
+            font-size: 1.2rem;
+        }
+        h1{
+            font-family: 'Alfa Slab One', cursive;
+            letter-spacing: 2px;
+        }
+    }
+    
+    .choose-burgers{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+
+        .burger-section{
+            padding: 0 2rem;
+            h4{ 
+                font-family: $fontFamily2;
+                font-weight: 500 !important;
+                letter-spacing: 1px;
+                font-size: 2rem;
+                color: $mainColor;
+            }
+            img{
+                padding-bottom: 5rem;
+                filter: drop-shadow(-10px 15px 10px #fff) drop-shadow(0 15px 10px #fff) drop-shadow(0 30px 10px #c3c3ce);
+
+            }
+            button{
+                padding: .5rem 1rem;
+                background: #bf2222;
+                color: white;
+                font-weight: 100 !important;
+                letter-spacing: 1px;
+                border: 1px solid #bf2222;
+                font-family: 'Alfa Slab One', cursive;
+                transition: .5s;
+
+                &:hover{
+                    background: transparent;
+                    color: #bf2222;
+                    border-color: #bf2222;
+                }
+            }
+        }
+    }
+}
+// slick slider start
+.slick-slider{
+    width: 100%;
+    .slider{
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+
+        .slider-body{
+            
+            padding: 2rem;
+
+            .text{
+                padding: 1.5rem;
+
+                h6{
+                    font-family: 'Bebas Neue', cursive;
+                    font-size: 2rem;
+                    font-weight: 300;
+                    letter-spacing: 1px;
+                }
+                h3{
+                    font-size: 2.8rem;
+                    text-transform: uppercase;
+                    padding-bottom: 1rem;
+                }
+                p{
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+}
+// slick section end
+
+// book a table section start 
+.book-your-table{
+    position: relative;
+
+    .img1{
+        position: absolute;
+        top: -10%;
+        left: 0;
+        width: 250px;
+        padding: 0;
+    }
+    .img2{
+        position: absolute;
+        bottom: -30%;
+        right: 0;
+        width: 250px;
+        padding: 0;
+    }
+    .img3{
+        position: absolute;
+        top: 32%;
+        left: 10%;
+        width: 220px;
+        padding: 0;
+    }
+    .heading{
+        padding-bottom: 2rem;
+        h5{
+            font-family: 'Bebas Neue', cursive;
+            font-size: 1.8rem;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+        h3{
+            font-size: 2.8rem;
+            text-transform: uppercase;
+            padding-bottom: 1rem;
+        }
+    }
+    .form{
+        width: 70%;
+        margin: auto;
+        
+        .form-control{
+            margin: 1.5rem;
+            padding: .8rem;
+        }
+        .button{
+            background: #bf2222;
+            color: $whiteColor;
+            font-family: 'Alfa Slab One', cursive;
+            letter-spacing: 2px;
+            font-weight: 100;
+            transition: .5s;
+
+            &:hover{
+                background: #6b1a1a;
+            }
+        }
+    }
+}
+// book a table section end
+
+// footer section start 
+footer{
+    .footer-div-for-bg{
+        background: url('../image/footer-bg.png') no-repeat center center;
+        background-size: cover;
+        padding: 3rem;
+        padding-bottom: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+
+        .left{
+            flex-basis: 50%;
+            
+            p{
+                color: #d7d6d6;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 1.1rem;
+                padding-top: 2rem;
+            }
+        }
+        .right{
+            flex-basis: 40%;
+
+           table{
+               tr{
+                   td{
+                       color: $whiteColor;
+                       text-transform: uppercase;
+                       font-family: 'Bebas Neue', cursive;
+                       font-size: 1.5rem;
+
+                       span{
+                           padding: .5rem 1.5rem .5rem 0;
+                           font-size: 2rem;
+                       }
+                   }
+               }
+           }
+        }
+    }
+    .copyright-section{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+
+        .left{
+            p{
+                color: $whiteColor;
+            }
+        }
+        .right{
+            text-align: right;
+           p{
+            span{
+                margin-left: 1rem;
+                padding: .5rem .8rem;
+                border-radius: 50%;
+                font-size: 1.5rem;
+                background-color: $whiteColor;
+                color: black;
+                transition: .3s;
+
+                &:hover{
+                    color: rgb(11, 139, 243);
+                }
+            }
+           }
+        }
+    }
+}
+
+// media query for burger display flex
+@media (max-width: 1335px){
+    .choose-and-enjoy{
+        .choose-burgers{
+            // flex-wrap: wrap;
+            .burger-section{
+                img{
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
+// media query for price-sticker 1300px to 1400px
+@media (min-width: 1300px) and (max-width: 1400px){
+    header{
+        .price-sticker{
+            width: 130px;
+            height: 130px;
+
+            h4{
+                font-size: 2rem;
+            }
+            p{
+                font-size: .8rem;
+            }
+        }
+    }
+}
+// media for 1200px to 1299px
+@media (min-width: 1200px) and (max-width: 1299px){
+    header{
+
+        .price-sticker{
+            width: 130px;
+            height: 130px;
+            margin-bottom: 5rem;
+
+            h4{
+                font-size: 2rem;
+            }
+            p{
+                font-size: .8rem;
+            }
+        }
+    }
+    .book-your-table{
+        .img2{
+            width: 200px;
+            bottom: -28%;
+        }
+        .img3{
+            left: 8%;
+        }
+    }
+}
+// media for 1100px to 1199px
+@media (min-width: 1100px) and (max-width: 1199px){
+    header{
+
+        .price-sticker{
+            width: 130px;
+            height: 130px;
+            margin-bottom: 6rem;
+
+            h4{
+                font-size: 2rem;
+            }
+            p{
+                font-size: .8rem;
+            }
+        }
+    }
+    .choose-and-enjoy{
+        .choose-burgers{
+            .burger-section{
+                img{
+                    width: 60%;
+                }
+            }
+        }
+    }
+    .book-your-table{
+        .img2{
+            width: 200px;
+            bottom: -28%;
+        }
+        .img3{
+            left: 8%;
+        }
+    }
+}
+// media for 992px to 1100px
+@media (min-width: 992px) and (max-width: 1100px){
+    header{
+        .banner-text{
+            h1{
+                font-size: 4rem;
+                margin-top: 2rem;
+            }
+            h2{
+                font-size: 2rem;
+            }
+        }
+        .price-sticker{
+            width: 130px;
+            height: 130px;
+            margin-bottom: 6rem;
+
+            h4{
+                font-size: 2rem;
+            }
+            p{
+                font-size: .8rem;
+            }
+        }
+    }
+    .try-it-today{
+        padding-top: 0!important;
+    }
+    .choose-and-enjoy{
+        .choose-burgers{
+            .burger-section{
+                img{
+                    width: 60%;
+                }
+            }
+        }
+    }
+    .slick-slider{
+        .slider{
+            .slider-body{
+                .text{
+                    padding-top: 0 !important;
+
+                    p{
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+        }
+    }
+    .book-your-table{
+        .img2{
+            width: 170px;
+            bottom: -26%;
+        }
+        .img3{
+            left: 7%;
+        }
+    }
+}
+// media for 768px to 991px
+@media (min-width: 768px) and (max-width: 991px){
+    header{
+        .banner-text{
+            h4{
+                font-size: 1.2rem;
+            }
+            h1{
+                font-size: 4rem;
+                margin-top: 2rem;
+            }
+            h2{
+                font-size: 2rem;
+            }
+        }
+        .price-sticker{
+            width: 115px;
+            height: 115px;
+            margin-bottom: 6rem;
+            padding-top: 2rem !important;
+
+            h4{
+                font-size: 2rem;
+            }
+            p{
+                font-size: .8rem;
+            }
+        }
+    }
+    .choose-and-enjoy{
+        .choose-burgers{
+            .burger-section{
+                img{
+                    width: 70%;
+                    padding-bottom: 3rem;
+                filter: drop-shadow(-5px 8px 5px #fff) drop-shadow(0 8px 5px #fff) drop-shadow(0 15px 5px #c3c3ce);
+
+                }
+                h4{
+                    font-size: 1.5rem;
+                }
+                p{
+                    line-height: 1rem;
+                }
+                button{
+                    font-size: .6rem;
+                    padding: .4rem .8rem;
+                }
+            }
+        }
+    }
+    .try-it-today{
+        padding-top: 0!important;
+    }
+    .slick-slider{
+        .slider{
+            .slider-body{
+                .text{
+                    padding: 0 !important;
+
+                    h6{
+                        font-size: 1.2rem;
+                    }
+                    h3{
+                        font-size: 2rem;
+                    }
+                    p{
+                        font-size: .9rem;
+                    }
+                }
+            }
+        }
+    }
+    .book-your-table{
+        .heading{
+            h5{
+                font-size: 1.3rem;
+            }
+            h3{
+                font-size: 1.9rem;
+                padding-bottom: 0 !important;
+            }
+        }
+        .img1{
+            width: 175px !important;
+        }
+        .img2{
+            width: 150px !important;
+            bottom: -27% !important;
+        }
+        .img3{
+            width: 165px !important;
+            left: 8% !important;
+        }
+        .form{
+            .form-control{
+                margin: 1rem !important;
+                padding: .5rem !important;
+            }
+        }
+    }
+       
+
+     footer{
+         .footer-div-for-bg{
+             padding: 2rem;
+             align-items: center;
+         }
+         .left{
+             img{
+                 width: 85%;
+             }
+             p{
+                 font-size: .9rem !important;
+             }
+         }
+         .right{
+             table{
+                 tr{
+                     td{
+                         font-size: 1.1rem !important;
+                         letter-spacing: 1.5px;
+                     }
+                 }
+             }
+         }
+         .copyright-section{
+             .right{
+                 p{
+                     span{
+                         font-size: 1rem;
+                         margin-left: .4rem;
+                     }
+                 }
+             }
+         }
+     }   
+}
+// media for 576px to 767px
+@media (min-width: 576px) and (max-width: 767px){
+    header{
+        .banner-text{
+            padding-top: 1rem!important;
+            padding-bottom: 1rem!important;
+            h4{ 
+                font-size: 1rem;
+                padding: 0.1rem !important;
+                border: 2px dashed #3d2514;
+            }
+            h1{
+                font-size: 3rem;
+                margin-top: 1.5rem;
+            }
+            h2{
+                font-size: 1.5rem;
+            }
+        }
+        .price-sticker{
+            width: 95px;
+            height: 95px;
+            margin-bottom: 4rem;
+            padding-top: 1.5rem !important;
+            outline: 3px dashed white;
+            outline-offset: -12px;
+
+            h4{
+                font-size: 1.5rem;
+                span{
+                    font-size: .8rem;
+                }
+            }
+            p{
+                font-size: .8rem;
+            }
+        }
+    }
+    .try-it-today{
+        padding-top: 0 !important;
+
+        .left{
+            .img{
+                margin-bottom: 2rem;
+            }
+            .text{
+                h6{
+                    font-size: 1.2rem;
+                }
+            }
+        }
+        .right{
+            .div1{
+                .text{
+                    h6{
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+    }
+    .choose-and-enjoy{
+        padding-bottom: 0 !important;
+        .choose-burgers{
+            .burger-section{
+                padding: 0px 0.5rem;
+                img{
+                    width: 70%;
+                    padding-bottom: 3rem;
+                filter: drop-shadow(-5px 8px 5px #fff) drop-shadow(0 8px 5px #fff) drop-shadow(0 15px 5px #c3c3ce);
+
+                }
+                h4{
+                    font-size: 1.5rem;
+                }
+                p{
+                    line-height: 1rem;
+                }
+                button{
+                    font-size: .6rem;
+                    padding: .4rem .8rem;
+                }
+            }
+        }
+    }
+    .slick-slider{
+        width: 99%;
+        .slider{
+            .slider-body{
+                .text{
+                    text-align: center;
+                    padding: 0 !important;
+
+                    h6{
+                        font-size: 1.2rem;
+                    }
+                    h3{
+                        font-size: 2rem;
+                    }
+                    p{
+                        font-size: .9rem;
+                    }
+                }
+            }
+        }
+    }
+    .book-your-table{
+        .heading{
+            h5{
+                font-size: 1.3rem;
+            }
+            h3{
+                font-size: 1.9rem;
+                padding-bottom: 0 !important;
+            }
+        }
+        .img1{
+            width: 175px !important;
+        }
+        .img2{
+            width: 120px!important;
+            bottom: -17% !important;
+        }
+        .img3{
+            display: none;
+        }
+        .form{
+            .form-control{
+                margin: 1rem !important;
+                padding: .5rem !important;
+            }
+        }
+    }
+    footer{
+        .footer-div-for-bg{
+            padding: 1rem;
+            align-items: center;
+        }
+        .left{
+            img{
+                width: 85%;
+            }
+            p{
+                font-size: .9rem !important;
+            }
+        }
+        .right{
+            table{
+                tr{
+                    td{
+                        font-size: 1.1rem !important;
+                        letter-spacing: 1.5px;
+                        span{
+                            font-size: 1.5rem !important;
+                            padding: .5rem 1rem .5rem 0;
+                        }
+                    }
+                }
+            }
+        }
+        .copyright-section{
+            .left{
+                p{
+                    font-size: .8rem !important;
+                }
+            }
+            .right{
+                p{
+                    span{
+                        font-size: 1rem;
+                        margin-left: .4rem;
+                        padding: .3rem .6rem;
+                    }
+                }
+            }
+        }
+    }   
+}
+
+// media for 320px to 575px
+@media (min-width: 320px) and (max-width: 575px){
+    header{
+        padding-top: 0!important;
+        
+        .navbar{
+            .navbar-brand{
+                width: 60%;
+                img{
+                    width: 80%;
+                }
+            }
+        }
+        .banner-text{
+            padding-top: 1rem!important;
+            padding-bottom: 1rem!important;
+            h4{ 
+                font-size: 1rem;
+                padding: 0.1rem !important;
+                border: 2px dashed #3d2514;
+            }
+            h1{
+                font-size: 3rem;
+                margin-top: 1.5rem;
+            }
+            h2{
+                font-size: 1.5rem;
+            }
+        }
+        .price-sticker{
+            width: 95px;
+            height: 95px;
+            margin-bottom: 4rem;
+            padding-top: 1.5rem !important;
+            outline: 3px dashed white;
+            outline-offset: -12px;
+
+            h4{
+                font-size: 1.5rem;
+                span{
+                    font-size: .8rem;
+                }
+            }
+            p{
+                font-size: .8rem;
+            }
+        }
+    }
+    .try-it-today{
+        padding-top: 0 !important;
+
+        .left{
+            .img{
+                margin-bottom: 2rem;
+                min-height: 200px !important;
+
+                img{
+                    min-height: 200px !important;
+                }
+            }
+            .text{
+                h6{
+                    font-size: 1.2rem;
+                }
+            }
+        }
+        .right{
+            .div1{
+                .img{
+                    img{
+                        min-height: 200px !important;
+                    }
+                }
+                .text{
+                    h6{
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+            .div2{
+                .img{
+                    img{
+                        min-height: 200px !important;
+                    }
+                }
+            }
+        }
+    }
+    .choose-and-enjoy{
+        padding-bottom: 0 !important;
+        .py-5{
+            padding-top: 0 !important;
+            padding-bottom: 0 !important;
+        }
+        .choose-burgers{
+            flex-wrap: wrap;
+            .burger-section{
+                padding: 0px 0.5rem;
+                margin-bottom: 2rem;
+                img{
+                    width: 60%;
+                    padding-bottom: 2rem;
+                    filter: drop-shadow(-2px 4px 3px #fff) drop-shadow(0 4px 3px #fff) drop-shadow(0 8px 3px #c3c3ce);
+
+                }
+                h4{
+                    font-size: 1.5rem;
+                }
+                p{
+                    line-height: 1rem;
+                }
+                button{
+                    font-size: .6rem;
+                    padding: .4rem .8rem;
+                }
+            }
+        }
+    }
+    .slick-slider{
+        width: 91%;
+        margin: auto;
+        .slider{
+            .slider-body{
+                padding: 0 !important;
+                .text{
+                    text-align: center;
+                    padding: 0 !important;
+
+                    h6{
+                        font-size: 1.2rem;
+                    }
+                    h3{
+                        font-size: 1.7rem;
+                    }
+                    p{
+                        font-size: .9rem;
+                    }
+                }
+            }
+        }
+    }
+    .book-your-table{
+        padding: 0!important;
+        .heading{
+            h5{
+                font-size: 1.3rem;
+            }
+            h3{
+                font-size: 1.9rem;
+                padding-bottom: 0 !important;
+            }
+        }
+        .img1{
+            width: 175px !important;
+            z-index: -2;
+        }
+        .img2{
+            width: 120px!important;
+            bottom: -17% !important;
+            z-index: -2;
+        }
+        .img3{
+            display: none;
+        }
+        .form{
+            width: 85%;
+            .form-control{
+                margin: 1rem !important;
+                padding: .5rem !important;
+                font-size: .8rem !important;
+            }
+        }
+    }
+    #footer-padding-sm{
+        padding-bottom: 0;
+    }
+    footer{
+        padding-bottom: 0!important;
+        .py-5{
+            padding-bottom: 0!important;
+    }
+        .footer-div-for-bg{
+            padding: 1rem;
+            align-items: center;
+            flex-wrap: wrap !important;
+        }
+        .left{
+            flex-basis: 100% !important;
+            img{
+                width: 95%;
+            }
+            p{
+                font-size: .9rem !important;
+            }
+        }
+        .right{
+            flex-basis: 100% !important;
+            table{
+                tr{
+                    td{
+                        font-size: 1.1rem !important;
+                        letter-spacing: 1.5px;
+                        span{
+                            font-size: 1.5rem !important;
+                            padding: .5rem 1rem .5rem 0;
+                        }
+                    }
+                }
+            }
+        }
+        .copyright-section{
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: center;
+            .left{
+                text-align: center;
+                flex-basis: 100%;
+                p{
+                    font-size: .8rem !important;
+                }
+            }
+            .right{
+                flex-basis: 100%;
+                text-align: center;
+                p{
+                    span{
+                        font-size: 1rem;
+                        margin-left: .4rem;
+                        padding: .3rem .6rem;
+                    }
+                }
+            }
+        }
+    }   
+}

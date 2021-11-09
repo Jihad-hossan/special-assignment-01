@@ -1,0 +1,947 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+  color: #3d2514;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Alfa Slab One', cursive;
+}
+
+header {
+  width: 100%;
+  background: url("../image/header-bg.png") no-repeat center center;
+  background-size: cover;
+}
+
+header .navbar .collapse .navbar-nav .nav-item .nav-link {
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #fff;
+}
+
+header .banner-text h4 {
+  display: inline-block;
+  padding: .5rem;
+  border: 3px dashed #3d2514;
+  letter-spacing: .001px;
+  margin: .5rem 0;
+}
+
+header .banner-text h1 {
+  font-size: 5rem;
+  font-weight: 900;
+  text-shadow: 1px 1.5px white;
+  letter-spacing: 1px;
+}
+
+header .banner-text h2 {
+  font-size: 3rem;
+  font-weight: 800;
+  text-shadow: 1px 1.5px white;
+  letter-spacing: 1px;
+}
+
+header .price-sticker {
+  background-color: #bf2222;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  outline: 5px dashed white;
+  outline-offset: -15px;
+}
+
+header .price-sticker h4 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+  color: white;
+}
+
+header .price-sticker h4 span {
+  font-size: 1.5rem;
+}
+
+header .price-sticker p {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.try-it-today .left {
+  position: relative;
+}
+
+.try-it-today .left .text {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+.try-it-today .left .text h4 {
+  color: #fff;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 1px;
+  font-size: 2.2rem;
+}
+
+.try-it-today .left .text h6 {
+  color: #fff;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.try-it-today .right .div1 {
+  position: relative;
+  margin-bottom: 2.1rem;
+}
+
+.try-it-today .right .div1 .text {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+.try-it-today .right .div1 .text h4 {
+  color: #fff;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 1px;
+  font-size: 2.2rem;
+}
+
+.try-it-today .right .div1 .text h6 {
+  color: #fff;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.try-it-today .right .div2 {
+  position: relative;
+}
+
+.try-it-today .right .div2 .text {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+.try-it-today .right .div2 .text h4 {
+  color: #fff;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 1px;
+  font-size: 2.2rem;
+}
+
+.try-it-today .right .div2 .text h6 {
+  color: #fff;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.choose-and-enjoy .heading h6 {
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 1px;
+  background: #ffc045;
+  padding: .5rem 1rem;
+  display: inline-block;
+  font-size: 1.2rem;
+}
+
+.choose-and-enjoy .heading h1 {
+  font-family: 'Alfa Slab One', cursive;
+  letter-spacing: 2px;
+}
+
+.choose-and-enjoy .choose-burgers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.choose-and-enjoy .choose-burgers .burger-section {
+  padding: 0 2rem;
+}
+
+.choose-and-enjoy .choose-burgers .burger-section h4 {
+  font-family: "Bebas Neue", cursive;
+  font-weight: 500 !important;
+  letter-spacing: 1px;
+  font-size: 2rem;
+  color: #3d2514;
+}
+
+.choose-and-enjoy .choose-burgers .burger-section img {
+  padding-bottom: 5rem;
+  -webkit-filter: drop-shadow(-10px 15px 10px #fff) drop-shadow(0 15px 10px #fff) drop-shadow(0 30px 10px #c3c3ce);
+          filter: drop-shadow(-10px 15px 10px #fff) drop-shadow(0 15px 10px #fff) drop-shadow(0 30px 10px #c3c3ce);
+}
+
+.choose-and-enjoy .choose-burgers .burger-section button {
+  padding: .5rem 1rem;
+  background: #bf2222;
+  color: white;
+  font-weight: 100 !important;
+  letter-spacing: 1px;
+  border: 1px solid #bf2222;
+  font-family: 'Alfa Slab One', cursive;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.choose-and-enjoy .choose-burgers .burger-section button:hover {
+  background: transparent;
+  color: #bf2222;
+  border-color: #bf2222;
+}
+
+.slick-slider {
+  width: 100%;
+}
+
+.slick-slider .slider {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.slick-slider .slider .slider-body {
+  padding: 2rem;
+}
+
+.slick-slider .slider .slider-body .text {
+  padding: 1.5rem;
+}
+
+.slick-slider .slider .slider-body .text h6 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.slick-slider .slider .slider-body .text h3 {
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+}
+
+.slick-slider .slider .slider-body .text p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+}
+
+.book-your-table {
+  position: relative;
+}
+
+.book-your-table .img1 {
+  position: absolute;
+  top: -10%;
+  left: 0;
+  width: 250px;
+  padding: 0;
+}
+
+.book-your-table .img2 {
+  position: absolute;
+  bottom: -30%;
+  right: 0;
+  width: 250px;
+  padding: 0;
+}
+
+.book-your-table .img3 {
+  position: absolute;
+  top: 32%;
+  left: 10%;
+  width: 220px;
+  padding: 0;
+}
+
+.book-your-table .heading {
+  padding-bottom: 2rem;
+}
+
+.book-your-table .heading h5 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.8rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.book-your-table .heading h3 {
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+}
+
+.book-your-table .form {
+  width: 70%;
+  margin: auto;
+}
+
+.book-your-table .form .form-control {
+  margin: 1.5rem;
+  padding: .8rem;
+}
+
+.book-your-table .form .button {
+  background: #bf2222;
+  color: #fff;
+  font-family: 'Alfa Slab One', cursive;
+  letter-spacing: 2px;
+  font-weight: 100;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.book-your-table .form .button:hover {
+  background: #6b1a1a;
+}
+
+footer .footer-div-for-bg {
+  background: url("../image/footer-bg.png") no-repeat center center;
+  background-size: cover;
+  padding: 3rem;
+  padding-bottom: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+footer .footer-div-for-bg .left {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+footer .footer-div-for-bg .left p {
+  color: #d7d6d6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+  padding-top: 2rem;
+}
+
+footer .footer-div-for-bg .right {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+}
+
+footer .footer-div-for-bg .right table tr td {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.5rem;
+}
+
+footer .footer-div-for-bg .right table tr td span {
+  padding: .5rem 1.5rem .5rem 0;
+  font-size: 2rem;
+}
+
+footer .copyright-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+footer .copyright-section .left p {
+  color: #fff;
+}
+
+footer .copyright-section .right {
+  text-align: right;
+}
+
+footer .copyright-section .right p span {
+  margin-left: 1rem;
+  padding: .5rem .8rem;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  background-color: #fff;
+  color: black;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+footer .copyright-section .right p span:hover {
+  color: #0b8bf3;
+}
+
+@media (max-width: 1335px) {
+  .choose-and-enjoy .choose-burgers .burger-section img {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1400px) {
+  header .price-sticker {
+    width: 130px;
+    height: 130px;
+  }
+  header .price-sticker h4 {
+    font-size: 2rem;
+  }
+  header .price-sticker p {
+    font-size: .8rem;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+  header .price-sticker {
+    width: 130px;
+    height: 130px;
+    margin-bottom: 5rem;
+  }
+  header .price-sticker h4 {
+    font-size: 2rem;
+  }
+  header .price-sticker p {
+    font-size: .8rem;
+  }
+  .book-your-table .img2 {
+    width: 200px;
+    bottom: -28%;
+  }
+  .book-your-table .img3 {
+    left: 8%;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1199px) {
+  header .price-sticker {
+    width: 130px;
+    height: 130px;
+    margin-bottom: 6rem;
+  }
+  header .price-sticker h4 {
+    font-size: 2rem;
+  }
+  header .price-sticker p {
+    font-size: .8rem;
+  }
+  .choose-and-enjoy .choose-burgers .burger-section img {
+    width: 60%;
+  }
+  .book-your-table .img2 {
+    width: 200px;
+    bottom: -28%;
+  }
+  .book-your-table .img3 {
+    left: 8%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1100px) {
+  header .banner-text h1 {
+    font-size: 4rem;
+    margin-top: 2rem;
+  }
+  header .banner-text h2 {
+    font-size: 2rem;
+  }
+  header .price-sticker {
+    width: 130px;
+    height: 130px;
+    margin-bottom: 6rem;
+  }
+  header .price-sticker h4 {
+    font-size: 2rem;
+  }
+  header .price-sticker p {
+    font-size: .8rem;
+  }
+  .try-it-today {
+    padding-top: 0 !important;
+  }
+  .choose-and-enjoy .choose-burgers .burger-section img {
+    width: 60%;
+  }
+  .slick-slider .slider .slider-body .text {
+    padding-top: 0 !important;
+  }
+  .slick-slider .slider .slider-body .text p {
+    font-size: 1.1rem;
+  }
+  .book-your-table .img2 {
+    width: 170px;
+    bottom: -26%;
+  }
+  .book-your-table .img3 {
+    left: 7%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  header .banner-text h4 {
+    font-size: 1.2rem;
+  }
+  header .banner-text h1 {
+    font-size: 4rem;
+    margin-top: 2rem;
+  }
+  header .banner-text h2 {
+    font-size: 2rem;
+  }
+  header .price-sticker {
+    width: 115px;
+    height: 115px;
+    margin-bottom: 6rem;
+    padding-top: 2rem !important;
+  }
+  header .price-sticker h4 {
+    font-size: 2rem;
+  }
+  header .price-sticker p {
+    font-size: .8rem;
+  }
+  .choose-and-enjoy .choose-burgers .burger-section img {
+    width: 70%;
+    padding-bottom: 3rem;
+    -webkit-filter: drop-shadow(-5px 8px 5px #fff) drop-shadow(0 8px 5px #fff) drop-shadow(0 15px 5px #c3c3ce);
+            filter: drop-shadow(-5px 8px 5px #fff) drop-shadow(0 8px 5px #fff) drop-shadow(0 15px 5px #c3c3ce);
+  }
+  .choose-and-enjoy .choose-burgers .burger-section h4 {
+    font-size: 1.5rem;
+  }
+  .choose-and-enjoy .choose-burgers .burger-section p {
+    line-height: 1rem;
+  }
+  .choose-and-enjoy .choose-burgers .burger-section button {
+    font-size: .6rem;
+    padding: .4rem .8rem;
+  }
+  .try-it-today {
+    padding-top: 0 !important;
+  }
+  .slick-slider .slider .slider-body .text {
+    padding: 0 !important;
+  }
+  .slick-slider .slider .slider-body .text h6 {
+    font-size: 1.2rem;
+  }
+  .slick-slider .slider .slider-body .text h3 {
+    font-size: 2rem;
+  }
+  .slick-slider .slider .slider-body .text p {
+    font-size: .9rem;
+  }
+  .book-your-table .heading h5 {
+    font-size: 1.3rem;
+  }
+  .book-your-table .heading h3 {
+    font-size: 1.9rem;
+    padding-bottom: 0 !important;
+  }
+  .book-your-table .img1 {
+    width: 175px !important;
+  }
+  .book-your-table .img2 {
+    width: 150px !important;
+    bottom: -27% !important;
+  }
+  .book-your-table .img3 {
+    width: 165px !important;
+    left: 8% !important;
+  }
+  .book-your-table .form .form-control {
+    margin: 1rem !important;
+    padding: .5rem !important;
+  }
+  footer .footer-div-for-bg {
+    padding: 2rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .left img {
+    width: 85%;
+  }
+  footer .left p {
+    font-size: .9rem !important;
+  }
+  footer .right table tr td {
+    font-size: 1.1rem !important;
+    letter-spacing: 1.5px;
+  }
+  footer .copyright-section .right p span {
+    font-size: 1rem;
+    margin-left: .4rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  header .banner-text {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+  header .banner-text h4 {
+    font-size: 1rem;
+    padding: 0.1rem !important;
+    border: 2px dashed #3d2514;
+  }
+  header .banner-text h1 {
+    font-size: 3rem;
+    margin-top: 1.5rem;
+  }
+  header .banner-text h2 {
+    font-size: 1.5rem;
+  }
+  header .price-sticker {
+    width: 95px;
+    height: 95px;
+    margin-bottom: 4rem;
+    padding-top: 1.5rem !important;
+    outline: 3px dashed white;
+    outline-offset: -12px;
+  }
+  header .price-sticker h4 {
+    font-size: 1.5rem;
+  }
+  header .price-sticker h4 span {
+    font-size: .8rem;
+  }
+  header .price-sticker p {
+    font-size: .8rem;
+  }
+  .try-it-today {
+    padding-top: 0 !important;
+  }
+  .try-it-today .left .img {
+    margin-bottom: 2rem;
+  }
+  .try-it-today .left .text h6 {
+    font-size: 1.2rem;
+  }
+  .try-it-today .right .div1 .text h6 {
+    font-size: 1.2rem;
+  }
+  .choose-and-enjoy {
+    padding-bottom: 0 !important;
+  }
+  .choose-and-enjoy .choose-burgers .burger-section {
+    padding: 0px 0.5rem;
+  }
+  .choose-and-enjoy .choose-burgers .burger-section img {
+    width: 70%;
+    padding-bottom: 3rem;
+    -webkit-filter: drop-shadow(-5px 8px 5px #fff) drop-shadow(0 8px 5px #fff) drop-shadow(0 15px 5px #c3c3ce);
+            filter: drop-shadow(-5px 8px 5px #fff) drop-shadow(0 8px 5px #fff) drop-shadow(0 15px 5px #c3c3ce);
+  }
+  .choose-and-enjoy .choose-burgers .burger-section h4 {
+    font-size: 1.5rem;
+  }
+  .choose-and-enjoy .choose-burgers .burger-section p {
+    line-height: 1rem;
+  }
+  .choose-and-enjoy .choose-burgers .burger-section button {
+    font-size: .6rem;
+    padding: .4rem .8rem;
+  }
+  .slick-slider {
+    width: 99%;
+  }
+  .slick-slider .slider .slider-body .text {
+    text-align: center;
+    padding: 0 !important;
+  }
+  .slick-slider .slider .slider-body .text h6 {
+    font-size: 1.2rem;
+  }
+  .slick-slider .slider .slider-body .text h3 {
+    font-size: 2rem;
+  }
+  .slick-slider .slider .slider-body .text p {
+    font-size: .9rem;
+  }
+  .book-your-table .heading h5 {
+    font-size: 1.3rem;
+  }
+  .book-your-table .heading h3 {
+    font-size: 1.9rem;
+    padding-bottom: 0 !important;
+  }
+  .book-your-table .img1 {
+    width: 175px !important;
+  }
+  .book-your-table .img2 {
+    width: 120px !important;
+    bottom: -17% !important;
+  }
+  .book-your-table .img3 {
+    display: none;
+  }
+  .book-your-table .form .form-control {
+    margin: 1rem !important;
+    padding: .5rem !important;
+  }
+  footer .footer-div-for-bg {
+    padding: 1rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .left img {
+    width: 85%;
+  }
+  footer .left p {
+    font-size: .9rem !important;
+  }
+  footer .right table tr td {
+    font-size: 1.1rem !important;
+    letter-spacing: 1.5px;
+  }
+  footer .right table tr td span {
+    font-size: 1.5rem !important;
+    padding: .5rem 1rem .5rem 0;
+  }
+  footer .copyright-section .left p {
+    font-size: .8rem !important;
+  }
+  footer .copyright-section .right p span {
+    font-size: 1rem;
+    margin-left: .4rem;
+    padding: .3rem .6rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+  header {
+    padding-top: 0 !important;
+  }
+  header .navbar .navbar-brand {
+    width: 60%;
+  }
+  header .navbar .navbar-brand img {
+    width: 80%;
+  }
+  header .banner-text {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+  header .banner-text h4 {
+    font-size: 1rem;
+    padding: 0.1rem !important;
+    border: 2px dashed #3d2514;
+  }
+  header .banner-text h1 {
+    font-size: 3rem;
+    margin-top: 1.5rem;
+  }
+  header .banner-text h2 {
+    font-size: 1.5rem;
+  }
+  header .price-sticker {
+    width: 95px;
+    height: 95px;
+    margin-bottom: 4rem;
+    padding-top: 1.5rem !important;
+    outline: 3px dashed white;
+    outline-offset: -12px;
+  }
+  header .price-sticker h4 {
+    font-size: 1.5rem;
+  }
+  header .price-sticker h4 span {
+    font-size: .8rem;
+  }
+  header .price-sticker p {
+    font-size: .8rem;
+  }
+  .try-it-today {
+    padding-top: 0 !important;
+  }
+  .try-it-today .left .img {
+    margin-bottom: 2rem;
+    min-height: 200px !important;
+  }
+  .try-it-today .left .img img {
+    min-height: 200px !important;
+  }
+  .try-it-today .left .text h6 {
+    font-size: 1.2rem;
+  }
+  .try-it-today .right .div1 .img img {
+    min-height: 200px !important;
+  }
+  .try-it-today .right .div1 .text h6 {
+    font-size: 1.2rem;
+  }
+  .try-it-today .right .div2 .img img {
+    min-height: 200px !important;
+  }
+  .choose-and-enjoy {
+    padding-bottom: 0 !important;
+  }
+  .choose-and-enjoy .py-5 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .choose-and-enjoy .choose-burgers {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .choose-and-enjoy .choose-burgers .burger-section {
+    padding: 0px 0.5rem;
+    margin-bottom: 2rem;
+  }
+  .choose-and-enjoy .choose-burgers .burger-section img {
+    width: 60%;
+    padding-bottom: 2rem;
+    -webkit-filter: drop-shadow(-2px 4px 3px #fff) drop-shadow(0 4px 3px #fff) drop-shadow(0 8px 3px #c3c3ce);
+            filter: drop-shadow(-2px 4px 3px #fff) drop-shadow(0 4px 3px #fff) drop-shadow(0 8px 3px #c3c3ce);
+  }
+  .choose-and-enjoy .choose-burgers .burger-section h4 {
+    font-size: 1.5rem;
+  }
+  .choose-and-enjoy .choose-burgers .burger-section p {
+    line-height: 1rem;
+  }
+  .choose-and-enjoy .choose-burgers .burger-section button {
+    font-size: .6rem;
+    padding: .4rem .8rem;
+  }
+  .slick-slider {
+    width: 91%;
+    margin: auto;
+  }
+  .slick-slider .slider .slider-body {
+    padding: 0 !important;
+  }
+  .slick-slider .slider .slider-body .text {
+    text-align: center;
+    padding: 0 !important;
+  }
+  .slick-slider .slider .slider-body .text h6 {
+    font-size: 1.2rem;
+  }
+  .slick-slider .slider .slider-body .text h3 {
+    font-size: 1.7rem;
+  }
+  .slick-slider .slider .slider-body .text p {
+    font-size: .9rem;
+  }
+  .book-your-table {
+    padding: 0 !important;
+  }
+  .book-your-table .heading h5 {
+    font-size: 1.3rem;
+  }
+  .book-your-table .heading h3 {
+    font-size: 1.9rem;
+    padding-bottom: 0 !important;
+  }
+  .book-your-table .img1 {
+    width: 175px !important;
+    z-index: -2;
+  }
+  .book-your-table .img2 {
+    width: 120px !important;
+    bottom: -17% !important;
+    z-index: -2;
+  }
+  .book-your-table .img3 {
+    display: none;
+  }
+  .book-your-table .form {
+    width: 85%;
+  }
+  .book-your-table .form .form-control {
+    margin: 1rem !important;
+    padding: .5rem !important;
+    font-size: .8rem !important;
+  }
+  #footer-padding-sm {
+    padding-bottom: 0;
+  }
+  footer {
+    padding-bottom: 0 !important;
+  }
+  footer .py-5 {
+    padding-bottom: 0 !important;
+  }
+  footer .footer-div-for-bg {
+    padding: 1rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+  }
+  footer .left {
+    -ms-flex-preferred-size: 100% !important;
+        flex-basis: 100% !important;
+  }
+  footer .left img {
+    width: 95%;
+  }
+  footer .left p {
+    font-size: .9rem !important;
+  }
+  footer .right {
+    -ms-flex-preferred-size: 100% !important;
+        flex-basis: 100% !important;
+  }
+  footer .right table tr td {
+    font-size: 1.1rem !important;
+    letter-spacing: 1.5px;
+  }
+  footer .right table tr td span {
+    font-size: 1.5rem !important;
+    padding: .5rem 1rem .5rem 0;
+  }
+  footer .copyright-section {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .copyright-section .left {
+    text-align: center;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  footer .copyright-section .left p {
+    font-size: .8rem !important;
+  }
+  footer .copyright-section .right {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    text-align: center;
+  }
+  footer .copyright-section .right p span {
+    font-size: 1rem;
+    margin-left: .4rem;
+    padding: .3rem .6rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
